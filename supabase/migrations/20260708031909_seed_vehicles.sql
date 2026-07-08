@@ -1,0 +1,22 @@
+INSERT INTO public.vehicles (brand, model, year, version, list_price_pen, list_price_usd, default_tea, default_rate_type, default_initial_payment_pct)
+VALUES
+  ('Toyota',   'Corolla',       2025, '2.0 XEI CVT',           84950, 22500, 0.1450, 'TEA', 20.00),
+  ('Toyota',   'RAV4',          2025, '2.0 XLE CVT',          126900, 33500, 0.1450, 'TEA', 20.00),
+  ('Toyota',   'Hilux',         2025, '2.8 TDI 4x4 SRV',      155800, 41200, 0.1400, 'TEA', 25.00),
+  ('Toyota',   'Yaris',         2025, '1.5 S CVT',             63400, 16800, 0.1500, 'TEA', 15.00),
+  ('Kia',      'Sportage',      2025, '2.0 EX',               102500, 27100, 0.1480, 'TEA', 20.00),
+  ('Kia',      'Seltos',        2025, '1.6 Turbo EX',          87400, 23100, 0.1500, 'TEA', 20.00),
+  ('Kia',      'Picanto',       2025, '1.2 M/T',               49300, 13000, 0.1550, 'TEA', 15.00),
+  ('Hyundai',  'Tucson',        2025, '2.0 GL',               108200, 28600, 0.1480, 'TEA', 20.00),
+  ('Hyundai',  'Creta',         2025, '1.6 GLS',               91400, 24200, 0.1500, 'TEA', 20.00),
+  ('Hyundai',  'Grand i10',     2025, '1.2 M/T',               49000, 13000, 0.1550, 'TEA', 15.00),
+  ('Nissan',   'Sentra',        2025, '2.0 SR CVT',            83200, 22000, 0.1450, 'TEA', 20.00),
+  ('Nissan',   'Qashqai',       2025, '2.0 EX',               111500, 29500, 0.1480, 'TEA', 20.00),
+  ('Nissan',   'Navara',        2025, '2.3 TDI LE 4x4',       145200, 38400, 0.1400, 'TEA', 25.00),
+  ('Chevrolet', 'Onix',         2025, '1.4 LS',                56700, 15000, 0.1550, 'TEA', 15.00),
+  ('Chevrolet', 'Tracker',      2025, '1.2 Turbo LS',          84800, 22400, 0.1500, 'TEA', 20.00),
+  ('Chevrolet', 'Silverado',    2025, '2.7 Turbo LT',         162300, 43000, 0.1380, 'TEA', 25.00),
+  ('Mazda',    'CX-30',         2025, '2.5 S',                114600, 30300, 0.1450, 'TEA', 20.00),
+  ('Mazda',    'Mazda3',        2025, '2.0 G',                 91600, 24200, 0.1480, 'TEA', 20.00),
+  ('Suzuki',   'Vitara',        2025, '1.4 Turbo GL',          82300, 21800, 0.1500, 'TEA', 20.00),
+  ('Suzuki',   'Swift',         2025, '1.2 GL',                56300, 14900, 0.1550, 'TEA', 15.00);
